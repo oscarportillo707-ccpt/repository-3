@@ -72,7 +72,6 @@ print("numeros y letras")
 numeros_letras = nombre + numero
 evaluarTexto = numeros_letras.isalnum()
 print(evaluarTexto)
-
 ## verificar que solo sean numeros
 print("verificar que solo sean numeros")
 solo_numeros = numero.isdigit()
