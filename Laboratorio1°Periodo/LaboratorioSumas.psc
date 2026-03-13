@@ -14,6 +14,6 @@ Algoritmo Sumas
 		Leer numeroEntrada 
 	FinMientras
 	
-Escribir "El total de la suma realizada es: " , suma 
+	Escribir "El total de la suma realizada es: " , suma 
 	
 FinAlgoritmo
