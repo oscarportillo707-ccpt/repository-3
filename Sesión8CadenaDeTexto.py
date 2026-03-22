@@ -59,3 +59,20 @@ mensaje = "hOlA kACe progRMando o qUe HaCe"
 ## Capitalize a que la primera letra de cada palabra sea mayuscula
 mensajeCorrecto = mensaje.capitalize()
 print(mensajeCorrecto)
+## Las flipantess aventuras de el gato con bolson magico y alfredo
+titulo = "Las flipantess aventuras de el gato con bolson magico y alfredo"
+tituloCorrecto = titulo.title()
+# print(tituloCorrecto)
+
+## swapCase() permite cambiar entre mayusculas y minusculas
+swapCaseTitulo = tituloCorrecto.swapcase()
+print(swapCaseTitulo)
+## numeros y letras
+print("numeros y letras")
+numeros_letras = nombre + numero
+evaluarTexto = numeros_letras.isalnum()
+print(evaluarTexto)
+## verificar que solo sean numeros
+print("verificar que solo sean numeros")
+solo_numeros = numero.isdigit()
+print(solo_numeros)
