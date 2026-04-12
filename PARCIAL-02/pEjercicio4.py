@@ -1,3 +1,4 @@
+## declaro variable
 texto = "CANTANDO"
 
 texMinuscula = texto.lower()
