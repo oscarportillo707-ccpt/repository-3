@@ -17,7 +17,7 @@ Serie = "fullmetal alchemits"
 ## tiene ojos  (propiedades)
 ## tiene boca
 ## Esta guapo
-#############
+##################
 #  corre        ( Funciones )
 # salta
 
