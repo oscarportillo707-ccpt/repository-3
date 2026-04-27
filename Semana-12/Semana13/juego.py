@@ -1,5 +1,20 @@
+import random
+
+
 def solicitarPalabra():
-    palabra = input("Ingrese una palabra: ")
+    palabras = [
+        "python",
+        "programacion",
+        "juego",
+        "adivinar",
+        "palabra",
+        "computadora",
+        "desarrollo",
+        "software",
+        "hardware",
+        "teclado",
+    ]
+    palabra = random.choice(palabras)
     transformandoPalabra = list(palabra.lower())
     return transformandoPalabra
 
