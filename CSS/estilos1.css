@@ -1,0 +1,187 @@
+.menu-header {
+    position: relative;
+}
+
+.hamburguesa {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0px 10px;
+    width: fit-content;
+    height: 55px;
+    background-color: rgb(247, 215, 215);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.hamburguesa:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0;
+}
+
+.menu {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background-color: rgb(211, 213, 215);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu a {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: lightblue;
+    transform: scale(1.05);
+}
+
+.oculto {
+    display: none;
+}
+
+head {
+    background-color: #f0f0f0;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+h1 {
+    background-color: #f0f0f0;
+    text-align: center;
+    color: #000000;
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+h4 {
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.texto-añade {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #8b8484;
+    font-family: Arial, sans-serif;
+    padding: 14px;
+    text-align: center;
+}
+
+.imgPanorama {
+    width: 50%;
+    border-radius: 15px;
+    float: right;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    margin-top: 75px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    animation: aparecer 1.5s ease;
+}
+
+.imgClima {
+    border-radius: 15px;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    margin-top: -35px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    animation: aparecer 1.5s ease;
+}
+
+.imgRecomendaciones {
+    border-radius: 15px;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    margin-top: 60px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    animation: aparecer 1.5s ease;
+}
+
+.imgImpacto {
+    border-radius: 15px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    animation: aparecer 1.5s ease;
+}
+
+.imgUltima {
+    border-radius: 15px;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    animation: aparecer 1.5s ease;
+}
+
+.animada-derecha {
+    opacity: 0;
+    transform: translateX(80px);
+    transition: all 1.5s ease;
+}
+
+.animada-derecha.mostrar {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.animada-izquierda {
+    opacity: 0;
+    transform: translateX(-80px);
+    transition: all 1.5s ease;
+}
+
+.animada-izquierda.mostrar {
+    opacity: 1;
+    transform: translateX(0);
+}
