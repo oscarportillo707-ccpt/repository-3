@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima-Web ES</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+
+
+<body>
+
+    <header class="menu-header">
+
+        <div class="hamburguesa" id="hamburguesa">
+            ☰ <span>Menú</span>
+        </div>
+
+        <nav class="menu oculto" id="menu">
+
+            <a href="index.html">
+                Pronosticador del Clima
+            </a>
+
+            <a href="informativa.html">
+                Web Informativa
+            </a>
+
+        </nav>
+
+    </header>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Clima-Web ES ⛅</h1>
+        <p>Consulta el pronóstico del clima en tu departamento</p>
+    </header>
+
+
+    <!-- SELECTOR DE DEPARTAMENTO -->
+    <section class="buscador">
+        <select id="departamento">
+            <option value="San Salvador">San Salvador</option>
+            <option value="Santa Ana">Santa Ana</option>
+            <option value="La Libertad">La Libertad</option>
+            <option value="San Miguel">San Miguel</option>
+            <option value="Usulután">Usulután</option>
+            <option value="Sonsonate">Sonsonate</option>
+            <option value="La Paz">La Paz</option>
+            <option value="Cuscatlán">Cuscatlán</option>
+            <option value="Chalatenango">Chalatenango</option>
+            <option value="Cabañas">Cabañas</option>
+            <option value="Morazán">Morazán</option>
+            <option value="La Unión">La Unión</option>
+            <option value="Ahuachapán">Ahuachapán</option>
+            <option value="San Vicente">San Vicente</option>
+        </select>
+
+        <button id="btnConsultar">Consultar</button>
+    </section>
+
+
+    <!-- CLIMA ACTUAL -->
+    <section class="clima-actual">
+        <h2>Clima Actual</h2>
+
+        <p id="fechaActual">Fecha: --</p>
+        <p id="horaActual">Hora: --</p>
+
+        <img id="iconoClima" src="assets/nublado.png" alt="Ícono del clima" width="100">
+
+        <p id="temperatura">Temperatura: -- °C / -- °F</p>
+        <p id="estado">Estado: --</p>
+        <p id="precipitacion">Precipitación: --%</p>
+        <p id="recomendacion">Recomendación: --</p>
+    </section>
+
+    <section class="calidad-aire">
+        <h2>Calidad del Aire</h2>
+
+        <p id="aqi">AQI: --</p>
+        <p id="estadoAire">Estado: --</p>
+        <p id="recomendacionAire">Recomendación: --</p>
+    </section>
+
+    <section class="viento">
+        <h2>Viento</h2>
+
+        <p id="velocidadViento">Velocidad: -- km/h</p>
+        <p id="direccionViento">Dirección: --</p>
+    </section>
+
+    <!-- PRONÓSTICO SEMANAL -->
+    <section class="pronostico">
+        <h2>Pronóstico Semanal</h2>
+
+        <div id="contenedorPronostico">
+            <!-- Aquí se insertarán dinámicamente los días -->
+        </div>
+    </section>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>Datos meteorológicos obtenidos mediante API externa ⛅</p>
+    </footer>
+
+
+    <script src="js/app.js"></script>
+    <script src="js/menu.js"></script>
+
+</body>
+
+</html>
